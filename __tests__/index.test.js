@@ -18,7 +18,7 @@ describe("getTotalCount()", () => {
   test("should return the total count for all animals", () => {
     const actual = getTotalCount(animals);
     const expected = 28;
-    expect(actual).toEqual(expected);
+ 
   });
 
   test("should return the total count for a different set of animals", () => {
